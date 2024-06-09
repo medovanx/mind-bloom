@@ -1,0 +1,36 @@
+.dashboard-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #f6f6f6;
+    margin-left: 240px;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+}
+
+@keyframes loadAnimation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.loading-bar {
+    height: 6px;
+    background-color: #007bff;
+    animation: loadAnimation 3s infinite;
+    z-index: 9999;
+}

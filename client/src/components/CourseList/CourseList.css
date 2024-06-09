@@ -1,0 +1,13 @@
+#course-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #course-list {
+        grid-template-columns: 1fr;
+    }
+}

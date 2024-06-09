@@ -1,0 +1,64 @@
+header {
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    position: static;
+    width: 100%;
+}
+
+.logo {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-size: 1.1rem;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid #03A64A;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.login-signup {
+    display: flex;
+    gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .login-signup button {
+        margin-left: 0;
+    }
+}

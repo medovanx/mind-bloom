@@ -1,0 +1,69 @@
+.teacher-courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px 5% 20px 5%;
+}
+
+.teacher-courses-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.teacher-courses-header>h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.teacher-courses-header-actions {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+.TabsContainer {
+    display: flex;
+    gap: 10px;
+    line-height: 2.5;
+}
+
+.myCourses {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid black;
+    /*Don't forget to add this via front's api - searchParams*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.myCourses-count {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: #c9c8c8;
+    padding: 0px 3px 0px 3px;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+.ButtonContainer {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+
+.teacher-courses-list {
+    width: 100%;
+}

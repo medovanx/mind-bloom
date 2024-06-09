@@ -1,0 +1,24 @@
+.certificateCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.certificateItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f2ee;
+    border: 1px solid #e0e0e0;
+}
+
+.certificateYear {
+    color: #838383;
+}
+
+.certificateTitle {
+    font-weight: 500;
+    color: #2b356a;
+}
